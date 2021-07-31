@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+:root {
+    --twitch-bg: #be4bdb;
+    --facebook-bg: #4267B2;
+    --twitter-bg: #1DA1F2;
+    --instagram-bg: #E1306C;
+    --button-text: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 185, 29);
+}
+
+button {
+    color: var(--button-text);
+    font: 1.3rem 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.11rem;
+    padding: 0.8rem 1.2rem;
+    outline: none;
+    border: none;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 9999px;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+
+i {
+    line-height: 20px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#twitch {
+    background-color: var(--twitch-bg);
+}
+
+#facebook {
+    background-color: var(--facebook-bg);
+}
+
+#twitter {
+    background-color: var(--twitter-bg);
+}
+
+#instagram {
+    background-color: var(--instagram-bg);
+}
